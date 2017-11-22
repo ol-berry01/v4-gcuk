@@ -1,0 +1,32 @@
+/* 4.6 - Product Image Section
+  ========================================== */
+  .product-image {
+    position: relative;
+  }
+  .product-image .image-wrap {
+    display: inline-block;
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*bottom: 0;*/
+    width: 50%;
+    display: block;
+    background-position: center;
+    background-size: cover;
+  }
+  .product-image .image-text {
+    display: inline-block;
+    width: 50%;
+    padding: 2.5%;
+  }
+  .product-image .image-text .image-text-title {
+    color: #A28F56;
+    margin-bottom: 30px;
+  }
+  .product-image .image-text p {
+    color: #dddddd;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 1.66666666666667em;
+  }

@@ -1,0 +1,280 @@
+@charset "UTF-8";
+/* Blog - Document Structure
+==========================================
+1.0 - Blog
+	1.1 - Post Title
+	1.2 - Post
+	1.3 - More Link
+	1.4 - Image Post
+	1.5 - Metadata
+	1.6 - Comments
+		1.6.1 - Comments Form
+========================================== */
+.animations-enable #main {
+  opacity: 0;
+  -webkit-transform: translate(0, 50px);
+  -ms-transform: translate(0, 50px);
+  -o-transform: translate(0, 50px);
+  transform: translate(0, 50px);
+  -webkit-transition: opacity 500ms, transform 500ms;
+  -o-transition: opacity 500ms, transform 500ms;
+  transition: opacity 500ms, transform 500ms;
+}
+.pace-done.animations-enable #main,
+.no-js #main {
+  opacity: 1;
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+	/*   1.1 - Post Title
+	========================================== */
+	.post-title {
+	  margin-bottom: 0.88235294117647em;
+	  margin-top: 0;
+	  font-size: 34px;
+	}
+	.post-title a {
+	  color: inherit;
+	  text-align: left;
+	}
+	/*   1.2 - Post
+	========================================== */
+	.blog article,
+	.search article,
+	.archive article {
+	  margin-bottom: 8.75rem;
+	}
+	.single article,
+	.page article {
+	  margin-bottom: 3em;
+	  padding-bottom: 0;
+	}
+	/* 1.3 - More Link
+	========================================== */
+	.more-link {
+	  display: block;
+	  clear: both;
+	}
+	/* 1.4 - Image Post
+	========================================== */
+	.post-image {
+	  overflow: hidden;
+	  position: relative;
+	  margin-bottom: 30px;
+	}
+	.post-image a {
+	  display: block;
+	  text-align: center;
+	}
+	.post-image img {
+	  width: 100%;
+	  vertical-align: bottom;
+	  height: auto;
+	}
+	.post-image:hover .post_date,
+	.post-image:hover .post-title_wrap {
+	  opacity: 0;
+	  -webkit-transition: all 200ms linear;
+	  -o-transition: all 200ms linear;
+	  transition: all 200ms linear;
+	}
+	/* 1.5 - Metadata
+	========================================== */
+	.metadata {
+	  margin: 1.78571428571429em 0;
+	  overflow: hidden;
+	  border-right: none;
+	  border-left: none;
+	  border-top: none;
+	  padding-top: 1.07142857142857em;
+	  border-top: 1px solid #eeeeee;
+	  border-bottom: 1px solid #eeeeee;
+	  font-size: 14px;
+	  font-size: 0.875rem;
+	}
+	.single .metadata {
+	  margin: 1.25em 0;
+	}
+	.metadata ul {
+	  margin: 0;
+	  padding: 0;
+	}
+	.metadata ul li {
+	  list-style: none;
+	  line-height: 1.4em;
+	  margin: 0;
+	  margin-right: 1.78571428571429em;
+	  padding: 0 0 1.07142857142857em 0;
+	  float: left;
+	  position: relative;
+	  color: #c7c7c7;
+	}
+	.metadata ul li i {
+	  margin-right: 0.35714285714286em;
+	  font-size: 14px;
+	  font-size: 0.875rem;
+	  text-align: center;
+	  color: #b3b3b3;
+	}
+	.metadata ul li a {
+	  text-decoration: none;
+	  color: #b3b3b3;
+	}
+	.metadata ul li a:hover {
+	  text-decoration: underline;
+	}
+	.updated:not(.published) {
+	  display: none;
+	}
+	.metadata hr {
+	  margin: 0;
+	}
+	/* 1.6 - Comments
+	========================================== */
+	#comments {
+	  margin-bottom: 70px;
+	}
+	#comments h3 {
+	  margin-top: 0;
+	}
+	.comment-list {
+	  margin-left: 0;
+	  margin-top: 2.30769230769231em;
+	  padding: 0;
+	  list-style: none;
+	}
+	#comments .comment-list .comment {
+	  list-style: none;
+	  margin-bottom: 50px;
+	}
+	#comments .comment-list .comment.bypostauthor .comment-body {
+	  border: 2px solid #555555;
+	}
+	#comments .comment-list .comment .comment-body {
+	  margin-bottom: 20px;
+	  background-color: #fafafa;
+	  padding: 30px;
+	}
+	#comments .comment-meta {
+	  width: 20%;
+	  margin-right: 5%;
+	  display: inline-block;
+	  vertical-align: top;
+	}
+	#comments .comment-meta .comment-author .avatar {
+	  margin-right: 15px;
+	}
+	#comments .comment-meta .comment-author .fn {
+	  font-size: 14px;
+	  font-size: 0.875rem;
+	}
+	#comments .comment-meta .comment-author .fn .url {
+	  color: #555555;
+	}
+	#comments .comment-meta .comment-author .says {
+	  font-size: 11px;
+	  font-size: 0.6875rem;
+	}
+	#comments .comment-meta .comment-metadata {
+	  font-size: 11px;
+	  font-size: 0.6875rem;
+	  margin-top: 10px;
+	}
+	#comments .comment-meta .comment-metadata a {
+	  color: #b3b3b3;
+	}
+	#comments .comment-meta .comment-metadata .edit-link {
+	  display: block;
+	}
+	#comments .comment-meta .comment-metadata .edit-link a {
+	  color: #b3b3b3;
+	}
+	#comments .comment-content {
+	  width: 74%;
+	  display: inline-block;
+	  vertical-align: top;
+	}
+	#comments .comment-list .comment .comment-body .reply {
+	  text-align: right;
+	}
+	#comments .comment-list .comment .comment-body .reply .comment-reply-link {
+	  text-align-last: auto;
+	  padding: 5px;
+	  font-size: 14px;
+	  font-size: 0.875rem;
+	  color: #999999;
+	}
+		/* 1.6.1 - Comments Form
+		========================================== */
+		#respond {
+		  margin: 70px 0;
+		}
+		#respond h3 {
+		  margin-top: 0;
+		}
+		#respond .input-wrap {
+		  margin: 0px 15px 10px 0;
+		  float: left;
+		  width: 31%;
+		}
+		#respond .input-wrap.textarea {
+		  float: none;
+		  width: 97%;
+		}
+		#respond .controls-wrap {
+		  position: relative;
+		}
+		#respond input {
+		  padding-left: 2.30769230769231em;
+		  width: 100%;
+		}
+		#respond input:focus {
+		  border-color: #999999;
+		  outline: none;
+		  -webkit-box-shadow: none;
+		  box-shadow: none;
+		}
+		#respond .input label {
+		  margin-bottom: 5px;
+		  display: block;
+		}
+		#respond textarea {
+		  width: 100%;
+		  height: 150px;
+		  margin-bottom: 1.42857142857143em;
+		}
+		#respond textarea:focus {
+		  border-color: #999999;
+		  outline: none;
+		  -webkit-box-shadow: none;
+		  box-shadow: none;
+		}
+		#respond .controls-wrap i {
+		  position: absolute;
+		  left: 0.71428571428571em;
+		  top: 0.71428571428571em;
+		  color: #c4c4c4;
+		  font-size: 14px;
+		  font-size: 0.875rem;
+		}
+		#respond .form-actions {
+		  background-color: transparent;
+		  border: none;
+		  padding: 0;
+		}
+		#respond #submit-respond {
+		  outline: none;
+		  width: auto;
+		  padding-left: 12px;
+		  height: auto;
+		}
+		#respond #submit-respond:hover {
+		  -webkit-transition: all 200ms;
+		  -o-transition: all 200ms;
+		  transition: all 200ms;
+		  background-color: #555555;
+		  border-color: #555555;
+		  color: #fff;
+		}

@@ -1,0 +1,582 @@
+@charset "UTF-8";
+/* Responsive Styles - Document Structure
+==========================================
+1.0 - 767px
+	1.1 - Header
+	1.2 - Home
+	1.3 - Quote Section
+	1.4 - Video Section
+	1.5 - Testimonials Section
+	1.6 - Image Section
+	1.7 - Team Section
+		1.7.1 - Hide :after 
+	1.8 - Phone Section
+	1.9 - Tagline Section
+	1.10 - Client Section
+	1.11 Map Section
+	1.12 - Pricing Section
+	1.13 - Portfolio Section
+	1.14 - Blog Section
+	1.15 - Content
+	1.16 - Sidebar
+	1.17 - Comments Form
+	1.18 - Footer
+2.0 - 768px and 1345px
+	2.1 - Header
+	2.2 - Home
+		2.2.1 - Welcome Section
+		2.2.2 - Quote Section
+		2.2.3 - Video Section
+		2.2.4 - Testimonials Section
+		2.2.5 - Image Section
+		2.2.6 - Team Section
+		2.2.7 - Phone Section
+		2.2.8 - Clients Section
+		2.2.9 - Clients Section
+		2.2.10 - Pricing Section
+		2.2.11 - Portfolio Section
+		2.2.12 - Blog Section
+	2.3 - Content
+	2.4 - Sidebar
+	2.5 - Comments Form
+3.0 - 1346px to 1509px
+	3.1 - Header
+	3.2 - Content
+	3.3 - Phone Section
+	3.4 - Pricing Section
+	3.5 - Sidebar
+	3.6 - Comments Form
+========================================== */
+
+/* 1.0 - Extra Small Breakpoint: 767px
+========================================== */
+@media (max-width: 767px) {
+	/* 1.1 - Header
+	========================================== */
+	.logo_container {
+		position: relative;
+		display: block;
+		float: none;
+		margin-right: 0;
+		width: 82%;
+	}
+	.navbar-logo {
+		margin: 0 0 0 20px;
+		left:0;
+	}
+	#ql-navigation {
+		padding: 0;
+	}
+	#jqueryslidemenu {
+		margin-bottom: 20px;
+		margin-top: 0;
+		float: none;
+		text-align: left;
+	}
+	#jqueryslidemenu ul.nav > li {
+		top:0;
+		display: block;
+	}
+	#ql_nav_collapse {
+		padding: 0;
+		padding-top: 10px;
+	}
+	.navbar-nav .open .dropdown-menu {
+		display: block;
+		width: 100%;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+	.dropdown-submenu > .dropdown-menu {
+		left: 0;
+		position: relative;
+		padding-left: 20px;
+	}
+	/* 1.1.1 - 1st Sub Level Menu
+	========================================== */
+	#ql-navigation .navbar-nav {
+		margin: 0;
+	}
+	#jqueryslidemenu ul.nav > li > ul {
+		position: relative;
+		top: 0;
+		padding: 0;
+	}
+	.dropdown:hover .dropdown-menu {
+		display: none;
+	}
+	.dropdown.open:hover .dropdown-menu {
+		display: block;
+		width: 100%;
+	}
+	#jqueryslidemenu ul.nav > li > ul > li.menu-item-has-children {
+		display: block;
+		width: 100%;
+		padding: 5px 20px;
+	}
+	#jqueryslidemenu ul.nav > li > ul > li.has-image {
+		display: none;
+	}
+  	/* 1.2 - Home
+	========================================== */
+	.welcome-intro .intro-line {
+		font-size: 18px;
+		font-size: 1.125rem;
+	}
+	.btn-ql,
+	.btn-ql:hover,
+	.btn-ql:active {
+		font-size: 13px;
+		font-size: 0.8125rem;
+		padding: 0.76923076923077em 1.53846153846154em;
+	}
+	.services-section {
+		padding: 10% 5% 1% 5%;
+	}
+	.service {
+		margin-bottom: 5%;
+	}
+	/* 1.3 - Quote Section
+	========================================== */
+	.quote-wrap {
+	display: block;
+	width: 100%;
+	padding: 1% 2% 5% 8%;
+	}
+	.laptop-wrap {
+	display: block;
+	width: 100%;
+	}
+	.quote-wrap blockquote {
+	font-size: 16px;
+	font-size: 1rem;
+	}
+	.quote-cite {
+	font-size: 14px;
+	font-size: 0.875rem;
+	}
+  	/* 1.4 - Video Section
+	========================================== */
+	.video-wrap {
+		display: block;
+		width: 100%;
+	}
+	.video-text-wrap {
+		width: 100%;
+		display: block;
+		padding: 10%;
+	}
+  	/* 1.5 - Testimonials Section
+	========================================== */
+	.testimonials-section {
+		padding: 14% 5%;
+	}
+	.testimonial blockquote {
+		font-size: 22px;
+		font-size: 1.375rem;
+	}
+	/* 1.6 - Image Section
+	========================================== */
+	.image-section .image-wrap {
+		position: relative;
+		top: auto;
+		left: auto;
+		bottom: auto;
+		padding-bottom: 52%;
+		width: 100%;
+		display: block;
+	}
+	.image-text {
+		margin-left: 0;
+		width: 100%;
+		display: block;
+		padding: 10%;
+	}
+	.image-text p {
+		font-size: 14px;
+		font-size: 0.875rem;
+	}
+  	/* 1.7 - Team Section
+	========================================== */
+	.team-section {
+		padding: 10% 0;
+	}
+	.team-wrap {
+		margin-bottom: 2.5rem;
+	}
+	.team-wrap:after {
+		content: 'flickity';
+		display: none;
+	}
+		/* 1.7.1 - Hide :after 
+		========================================== */
+		.widget_team-member-widget {
+			width: 70%;
+			margin: 10px 10%;
+			display: inline-block;
+			vertical-align: top;
+		}
+	/* 1.8 - Phone Section
+	========================================== */
+	.phone-section {
+	 padding: 10%;
+	}
+	.phone-services {
+		display: block;
+		width: 100%;
+		margin-left: 0;
+		padding-top: 0;
+	}
+	.phone-services .service {
+		width: 100%;
+		display: block;
+		margin: 0 0 8%;
+	}
+  	/* 1.9 - Tagline Section
+	========================================== */
+	.tagline-section a {
+		padding: 5% 10%;
+	}
+	.tagline-section .tagline {
+		font-size: 24px;
+		font-size: 1.5rem;
+	}
+	.tagline-section span {
+		font-size: 14px;
+		font-size: 0.875rem;
+	}
+  	/* 1.10 - Client Section
+	========================================== */
+	.clients-section {
+		padding: 10% 0;
+	}
+	.clients-wrap:after {
+		content: 'flickity';
+		display: none;
+		/* hide :after */
+	}
+	.clients-wrap .clients-logo {
+		width: 45%;
+		margin: 5%;
+	}
+  	/* 1.11 Map Section
+	========================================== */
+	.map-wrap {
+		position: relative;
+		left: 0;
+		top: 0;
+		bottom: auto;
+		width: 100%;
+		height: 250px;
+		display: block;
+	}
+	.map-content {
+		width: 100%;
+		margin-left: 0;
+		display: block;
+		padding: 10%;
+	}
+	/* 1.12 - Pricing Section
+	========================================== */
+	.cd-pricing-header h2 {
+		font-size: 16px;
+		font-size: 1rem;
+		color: #fff;
+	}
+	.cd-currency,
+	.cd-value {
+		font-size: 26px;
+		font-size: 1.625rem;
+	}
+	.cd-popular .cd-duration {
+		color: #fff;
+		opacity: 0.7;
+	}
+	/* 1.13 - Portfolio Section
+	========================================== */
+	.portfolio-section .portfolio-item {
+		width: 50%;
+		height: 50%;
+		padding-bottom: 50%;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.portfolio-section .portfolio-item .portfolio-hover span {
+		font-size: 16px;
+		font-size: 1rem;
+	}
+	/* 1.14 - Blog Section
+	========================================== */
+	.blog-section {
+		padding: 7% 10%;
+	}
+	.blog-wrap .blog-item {
+		width: 100%;
+		margin-right: 5%;
+	}
+	/* 1.15 - Content
+	========================================== */
+	.metadata {
+		display: block;
+	}
+	.metadata ul li {
+		float: left;
+	}
+	.error404 .search-form {
+		width: 100%;
+	}
+	/* 1.16 - Sidebar
+	========================================== */
+	#sidebar {
+		padding-right: 0;
+	}
+	/* 1.17 - Comments Form
+	========================================== */
+	#respond .input-wrap {
+		width: 100%;
+	}
+	/* 1.18 - Footer
+	========================================== */
+	.sub_footer p {
+		margin-bottom: 20px;
+		float: none;
+		line-height: 1.6em;
+	}
+	.nav_social {
+		float: none;
+	}
+	.section-title {
+		margin-bottom: 4rem;
+	}
+}
+/* 2.0 - Small Breakpoint: 768px and 1345px
+========================================== */
+@media (min-width: 768px) and (max-width: 1345px) {
+	.container {
+		width: 96%;
+	}
+	/* 2.1 - Header
+	========================================== */
+	.logo_container {
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	#jqueryslidemenu {
+		text-align: center;
+	}
+	/* 2.2 - Home
+	========================================== */
+		/* 2.2.1 - Welcome Section
+		========================================== */
+		.welcome-intro .intro-line {
+		font-size: 38px;
+		font-size: 2.375rem;
+		}
+		/* 2.2.2 - Quote Section
+		========================================== */
+		.quote-wrap blockquote {
+		font-size: 16px;
+		font-size: 1rem;
+		}
+		.quote-cite {
+		font-size: 14px;
+		font-size: 0.875rem;
+		}
+		/* 2.2.3 - Video Section
+		========================================== */
+		.video-wrap {
+		display: block;
+		width: 100%;
+		}
+		.video-text-wrap {
+		width: 100%;
+		display: block;
+		padding: 10%;
+		}
+		/* 2.2.4 - Testimonials Section
+		========================================== */
+		.testimonials-section {
+			padding: 10% 10%;
+		}
+	  	/* 2.2.5 - Image Section
+		========================================== */
+		.image-section .image-wrap {
+			position: relative;
+			top: auto;
+			left: auto;
+			bottom: auto;
+			padding-bottom: 52%;
+			width: 100%;
+			display: block;
+		}
+		.image-text {
+			margin-left: 0;
+			width: 100%;
+			display: block;
+			padding: 8%;
+		}
+		/* 2.2.6 - Team Section
+		========================================== */
+		.widget_team-member-widget {
+			width: 25%;
+			margin: 10px 3%;
+			display: inline-block;
+			vertical-align: top;
+		}
+		/* 2.2.7 - Phone Section
+		========================================== */
+		.phone-section {
+			padding: 8% 10%;
+		}
+		.phone-services {
+			display: block;
+			width: 100%;
+			margin-left: 0;
+			padding-top: 0;
+		}
+		.phone-services .service {
+			width: 45%;
+			margin: 0 2% 8%;
+		}
+		/* 2.2.8 - Clients Section
+		========================================== */
+		.clients-section {
+			padding: 5% 5%;
+		}
+		.clients-wrap .clients-logo {
+			width: 20%;
+			margin: 2%;
+		}
+		/* 2.2.9 - Clients Section
+		========================================== */
+		.cd-has-margins .cd-pricing-list > li {
+			width: 32%;
+		}
+		.cd-value {
+			font-size: 60px;
+			font-size: 3.75rem;
+		}
+		.cd-duration {
+			font-size: 16px;
+			font-size: 1rem;
+		}
+		/* 2.2.10 - Pricing Section
+		========================================== */
+		.cd-has-margins .cd-select {
+			padding: 1.2em 0;
+		}
+		/* 2.2.11 - Portfolio Section
+		========================================== */
+		.portfolio-section .portfolio-item .portfolio-hover span {
+		font-size: 16px;
+		font-size: 1rem;
+		}
+		/* 2.2.12 - Blog Section
+		========================================== */
+		.blog-wrap .blog-item {
+			width: 45%;
+			display: inline-block;
+			vertical-align: top;
+			margin-right: 6%;
+			margin-bottom: 2.5%;
+		}
+	/* 2.3 - Content
+	========================================== */
+	.metadata ul li {
+		float: left;
+	}
+	/* 2.4 - Sidebar
+	========================================== */
+	#sidebar {
+	padding-right: 0;
+	}
+	#sidebar .widget {
+	padding: 0 20px;
+	}
+	/* 2.5 - Comments Form
+	========================================== */
+	#respond .input-wrap {
+		width: 46%;
+	}
+}
+/* 3.0 - Medium Breakpoint: 1346px to 1509px
+========================================== */
+@media (min-width: 1346px) and (max-width: 1509px) {
+	/* 3.1 - Header
+	========================================== */
+	.ql_nav_btn {
+		top: 45px;
+	}
+	.meta_blocks div {
+		height: 56px;
+	}
+	.meta_icon {
+		line-height: 53px;
+	}
+	.meta_blocks div i {
+		font-size: 24px;
+		font-size: 1.5rem;
+	}
+	.sub_icon {
+		font-size: 22px;
+		font-size: 1.375rem;
+	}
+	.meta_comments .sub_icon {
+		line-height: 50px;
+	}
+	.meta_date span {
+		font-size: 11px;
+		font-size: 0.6875rem;
+	}
+	.ql_cart-btn {
+		padding-left: 10px;
+		margin-left: 5px;
+	}
+	.ql_login-btn {
+		padding: 5px 10px;
+	}
+	#ql_woo_cart {
+		width: 1200px;
+	}
+	/* 3.2 - Content
+	========================================== */
+	.content_background {
+		padding: 40px;
+	}
+	/* 3.3 - Phone Section
+	========================================== */
+	.phone-section {
+		padding: 4% 6% 2% 6%;
+	}
+	.phone-services .service {
+		width: 45%;
+		margin: 0 2% 5%;
+	}
+	/* 3.4 - Pricing Section
+	========================================== */
+	.cd-has-margins .cd-pricing-list > li {
+		width: 30%;
+		margin: 0 1%;
+	}
+	.cd-value {
+		font-size: 68px;
+		font-size: 4.25rem;
+	}
+	.cd-currency {
+		font-size: 26px;
+		font-size: 1.625rem;
+	}
+	.cd-has-margins .cd-select {
+		padding: 1.2em 0;
+	}
+	/* 3.5 - Sidebar
+	========================================== */
+	#sidebar .widget {
+		padding: 0;
+	}
+	/* 3.6 - Comments Form
+	========================================== */
+	#respond .input-wrap {
+		width: 47%;
+	}
+}
