@@ -38,9 +38,17 @@
 				<div class="container">
 					
 					<div class="home-logo">
-						<a href="http://golfcaruk.com/">
-							<img src="<?php bloginfo('stylesheet_directory'); ?>/images/Golf-Car-UK-logo.jpg">
-						</a>
+						<?php if ( is_front_page() && is_home() ) : ?>
+								<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+									<img src="<?php bloginfo('stylesheet_directory'); ?>/images/Golf-Car-UK-logo.jpg">
+								</a>
+						<?php else : ?>
+						
+								<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+									<img src="<?php bloginfo('stylesheet_directory'); ?>/images/Golf-Car-UK-logo.jpg">
+								</a>
+						<?php endif; ?>
+						
 					</div>
 					
 					<div class="navbar-header">

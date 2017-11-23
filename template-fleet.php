@@ -90,7 +90,7 @@ get_header(); ?>
         			<div class="features-list" style="">
         				
         				<ul>
-        					<li style="border-top:1px solid #c6c6c6;background:#000048;"><h4 style="color:#000048;">Rental</h4></li>
+        					<li style="border-top:1px solid #c6c6c6;background:#000063;"><h4 style="color:#000063;">Rental</h4></li>
         					<li>Price<small> ex VAT</small></li>
         					<li>Vehicle Condition</li>
         					<li>Delivery</li>
@@ -109,7 +109,7 @@ get_header(); ?>
         			<div class="product-wrapper wow fadeIn">
         				<div class="rental-list">
         					<ul>
-        						<li class="header" style="border-top:1px solid #c6c6c6;background:#000048;"><h4 style="color:#dcdcdc;">Platinum</h4></li>
+        						<li class="header" style="border-top:1px solid #c6c6c6;background:#000063;"><h4 style="color:#dcdcdc;">Platinum</h4></li>
         						<li>£19.95 <small>p/w</small></li>
         						<li>New</li>
         						<li><i class="fa fa-check" aria-hidden="true" style="color:#41d102;"></i></li>
@@ -126,7 +126,7 @@ get_header(); ?>
         				</div>
         				<div class="rental-list">
         					<ul>
-        						<li style="border-top:1px solid #c6c6c6;background:#000048;"><h4>Gold</h4></li>
+        						<li style="border-top:1px solid #c6c6c6;background:#000063;"><h4>Gold</h4></li>
         						<li>£19.02 <small>p/w</small></li>
         						<li>New</li>
         						<li><i class="fa fa-check" aria-hidden="true" style="color:#41d102;"></i></li>
@@ -143,7 +143,7 @@ get_header(); ?>
         				</div>
         				<div class="rental-list">
         					<ul>
-        						<li style="border-top:1px solid #c6c6c6;background:#000048;"><h4 style="color:#c0c0c0;">Silver</h4></li>
+        						<li style="border-top:1px solid #c6c6c6;background:#000063;"><h4 style="color:#c0c0c0;">Silver</h4></li>
         						<li>£17.64 <small>p/w</small></li>
         						<li>Refurbished</li>
         						<li><i class="fa fa-check" aria-hidden="true" style="color:#41d102;"></i></li>
@@ -160,7 +160,7 @@ get_header(); ?>
         				</div>
         				<div class="rental-list">
         					<ul>
-        						<li style="border-top:1px solid #c6c6c6;background:#000048;"><h4 style="color:#a57164;">Bronze</h4></li>
+        						<li style="border-top:1px solid #c6c6c6;background:#000063;"><h4 style="color:#a57164;">Bronze</h4></li>
         						<li>£15.33 <small>p/w</small></li>
         						<li>Used</li>
         						<li><i class="fa fa-check" aria-hidden="true" style="color:#41d102;"></i></li>

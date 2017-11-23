@@ -406,7 +406,7 @@ get_header(); ?>
 					
         			<div class="features-list" style="width:55%;">
         				<ul>
-        					<li style="border-top:1px solid #c6c6c6;background:#000048;"><h4 style="color:#000048;">Feature</h4></li>
+        					<li style="border-top:1px solid #c6c6c6;background:#000063;"><h4 style="color:#000063;">Feature</h4></li>
         					<li style="background:rgba(154,178,214,1);color:#fff;">Car Management &amp; Geofencing</li>
         					<li>Vehicle Travel History</li>
         					<li>Geofencing &amp; Car Shutdown</li>
@@ -448,7 +448,7 @@ get_header(); ?>
         			<div class="product-wrapper wow fadeIn">
         				<div class="rental-list" style="width:17%;">
         					<ul>
-        						<li class="header" style="border-top:1px solid #c6c6c6;background:#000048;"><h4>TKV 10EX</h4></li>
+        						<li class="header" style="border-top:1px solid #c6c6c6;background:#000063;"><h4>TKV 10EX</h4></li>
         						<li style="background:rgb(154,178,214);color:rgb(154,178,214);">Geofencing</li>
         						<li><i class="fa fa-check" aria-hidden="true"></i></li>
         						<li><i class="fa fa-check" aria-hidden="true"></i></li>
@@ -489,7 +489,7 @@ get_header(); ?>
         				</div>
         				<div class="rental-list" style="width:17%;">
         					<ul>
-        						<li style="border-top:1px solid #c6c6c6;background:#000048;"><h4>TKV 7EX</h4></li>
+        						<li style="border-top:1px solid #c6c6c6;background:#000063;"><h4>TKV 7EX</h4></li>
         						<li style="background:rgb(154,178,214);color:rgb(154,178,214);">Geofencing</li>
         						<li><i class="fa fa-check" aria-hidden="true"></i></li>
         						<li><i class="fa fa-check" aria-hidden="true"></i></li>
@@ -530,7 +530,7 @@ get_header(); ?>
         				</div>
         				<div class="rental-list" style="width:17%;">
         					<ul>
-        						<li style="border-top:1px solid #c6c6c6;background:#000048;"><h4>TKV 7</h4></li>
+        						<li style="border-top:1px solid #c6c6c6;background:#000063;"><h4>TKV 7</h4></li>
         						<li style="background:rgba(154,178,214,1);color:rgb(154,178,214);">Geofencing</li>
         						<li><i class="fa fa-check" aria-hidden="true"></i></li>
         						<li><i class="fa fa-check" aria-hidden="true"></i></li>
@@ -607,7 +607,7 @@ get_header(); ?>
 <div id="insuranceMessage" class="modal fade">
     <div class="modal-dialog">
         <div class="modal-content">
-            <div class="modal-header" style="background:#000048;">
+            <div class="modal-header" style="background:#000063;">
                 <button type="button" class="close" data-dismiss="modal"><span class="" aria-hidden="true" style="color:#fff;">&times;</span><span class="sr-only">Close</span></button>
                 <div style="text-align:center;"><h4 class="modal-title gc-white" id="myModalLabel" style="color:#fff;">Book an Golf Car Insurance Consultation with Golf Car UK</p></div>
             </div>

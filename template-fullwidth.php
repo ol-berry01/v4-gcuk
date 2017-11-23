@@ -16,19 +16,16 @@ get_header(); ?>
 
 	<main id="main" class="site-main col-md-12" role="main">
 
-		<div class="container" style="padding:0;">
-			<!-- Breadcrumbs -->
-    	    		<?php get_template_part( 'template-parts/section-breadcrumbs', 'careers' ); ?>
-    	    		<!-- End: Breadcrumbs -->		
-		</div>
+		<?php get_template_part( 'template-parts/section-breadcrumbs', 'full-width' ); ?>
 
-		<?php get_template_part( 'template-parts/section-page', 'new-vehicles' ); ?>
+
+		<?php get_template_part( 'template-parts/section-page', 'full-width' ); ?>
 			
 			
-		<?php get_template_part( 'template-parts/section-details', 'new-vehicles' ); ?>
+		<?php get_template_part( 'template-parts/section-details', 'full-width' ); ?>
     
 
-    	<?php get_template_part( 'template-parts/section-blog', 'front-page' ); ?>
+    	<?php get_template_part( 'template-parts/section-blog', 'full-width' ); ?>
 
 	</main><!-- #main -->
 	
