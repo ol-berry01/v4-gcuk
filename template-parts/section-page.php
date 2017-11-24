@@ -16,6 +16,18 @@
                 <?php elseif( get_row_layout() == 'intro_layout' ): ?>
                     <?php get_template_part( 'template-parts/section-builder-intro', 'builder' )?>
                 
+                <!-- Textbox Layout -->
+                <?php elseif( get_row_layout() == 'textbox_layout' ): ?>
+                    <?php get_template_part( 'template-parts/section-builder-textbox', 'builder' )?>
+
+                <!-- Image Block Left Layout -->
+                <?php elseif( get_row_layout() == 'image_block_left' ): ?>
+                    <?php get_template_part( 'template-parts/section-image-left', 'builder' ) ?>
+                
+                <!-- Image Block Layout -->
+                <?php elseif( get_row_layout() == 'image_block_right' ): ?>
+                    <?php get_template_part( 'template-parts/section-image-right', 'builder' ) ?>
+                
                 <!-- Picture Navigation Layout -->
                  <?php elseif( get_row_layout() == 'pic_nav_layout' ): ?>
                     <?php get_template_part( 'template-parts/section-builder-pic-nav', 'builder' ) ?>

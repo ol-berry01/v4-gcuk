@@ -1,29 +1,30 @@
  
-<div class="container">
-	<div class="row service-title">
-		<div class="col-sm-8">
-			<h1 class="section-title"><?php the_sub_field('service_intro_title'); ?></h1>
-			<p class="lead"><?php the_sub_field('service_sub_title'); ?></p>
+<section class="section-builder">
+	<div class="container">
+		<div class="row service-title">
+			<div class="col-sm-8">
+				<h1 class="section-title"><?php the_sub_field('service_intro_title'); ?></h1>
+				<p class="lead"><?php the_sub_field('service_sub_title'); ?></p>
+			</div>
+			<div class="col-sm-4">
+			</div>
 		</div>
-		<div class="col-sm-4">
+		
+		<div class="row service-content">
+			<?php if( have_rows('service_intro_description') ): ?>
+				<?php while( have_rows('service_intro_description') ): the_row(); ?>
+					<!-- Column -->
+					<div class="col-sm-4">
+						<h4 class="section-title"><?php the_sub_field('service_description_title'); ?></h4>
+						<p><?php the_sub_field('service_description_content'); ?></p>
+					</div>
+				<?php endwhile; ?>
+			<?php endif; ?>
 		</div>
 	</div>
-	
-	<div class="row service-content">
-		<?php if( have_rows('service_intro_description') ): ?>
-			<?php while( have_rows('service_intro_description') ): the_row(); ?>
-				 <!-- Column -->
-				 <div class="col-sm-4">
-					<h4 class="section-title"><?php the_sub_field('service_description_title'); ?></h4>
-					<p><?php the_sub_field('service_description_content'); ?></p>
-				</div>
-			<?php endwhile; ?>
-		<?php endif; ?>
-	</div>
-</div>
+</section>
 
 <!-- Contact Modal -->
-
 <div id="insuranceMessage" class="modal fade">
 	<div class="modal-dialog">
 		<div class="modal-content">
@@ -40,4 +41,3 @@
 		</div>
 	</div>
 </div>
-<!-- End: Contact Modal -->
