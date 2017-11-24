@@ -28,7 +28,7 @@ a:focus{color:#a28f56;text-decoration:none;}
 button,
 button:hover,
 button:focus{}
-.lead{color:#aaaaaa;font-size:1.6em;font-weight:400;}
+.lead{color:#aaaaaa;font-size:1.3em;font-weight:400;}
 img{max-width:100%;height:auto;}
 .btn{font-family:'Open Sans' , Arial, Sans-Serif;}
 .home .entry-header{display:none;}
