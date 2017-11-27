@@ -113,6 +113,11 @@
 
             <!-- Styling Elements -->
                 <!-- Parallax Break Layout -->
+                <?php elseif( get_row_layout() == 'service_rentalpackages' ): ?>
+                    <?php get_template_part( 'template-parts/section-service-table', 'builder' ); ?>
+
+            <!-- Styling Elements -->
+                <!-- Parallax Break Layout -->
                 <?php elseif( get_row_layout() == 'para_layout' ): ?>
                     <?php get_template_part( 'template-parts/section-builder-break', 'builder' ); ?>
 

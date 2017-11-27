@@ -530,6 +530,19 @@ div.product form.cart .button:hover{background:#000063;font-weight:700;}
 .service-intro{margin:55px 0;}
 #service-packages{background:url('http://s3-eu-west-2.amazonaws.com/golfcaruk.com/wp-content/uploads/2017/01/06160358/mullion-hole3.jpg') 50% no-repeat fixed;background-size:cover;}
 .service-packages{margin:45px 0;padding:90px 0;}
+.comparison-wrapper{width:100%;margin:50px 0;display: block;overflow-x: auto;-ms-overflow-style: -ms-autohiding-scrollbar;}
+.comparison-wrapper .features-list,.comparison-wrapper .rental-list{width:20%;float:left;background-color:#fafafa;opacity:.95;text-align:center;border-left:1px solid #c6c6c6;}
+.comparison-wrapper .features-list li.list-hidden{border-top: 1px solid #c6c6c6;background:#000063;}
+.comparison-wrapper .features-list::after{content:'';position:relative;top:0;left:100%;width:4px;height:100%;background-color:transparent;background-image:-webkit-linear-gradient(left, rgba(0, 0, 0, 0.06), transparent);background-image:linear-gradient(to right,rgba(0, 0, 0, 0.06), transparent);opacity:0;}
+.comparison-wrapper .product-list ul,.comparison-wrapper .features-list ul,.comparison-wrapper .rental-list ul{background:#fff;margin:0;padding:0;}
+.comparison-wrapper .product-list ul.top-info,.comparison-wrapper .features-list ul.top-info{font-size:22px;}
+.comparison-wrapper .product-list li,.comparison-wrapper .features-list li,.comparison-wrapper .rental-list li{list-style:none;margin:0;padding:1.5em 0.1em;font-size:16px;transition:500ms;border-bottom:1px solid #c6c6c6;border-right:1px solid #c6c6c6;}
+.comparison-wrapper .rental-list li h4, .comparison-wrapper .features-list li h4{color:#f4f4f4;font-size:1em;font-weight:700;}
+@media only screen and (max-width:1171px){
+    .comparison-wrapper .features-list small, .comparison-wrapper .rental-list small {display:block;} 
+    .comparison-wrapper .features-list li, .comparison-wrapper .rental-list li {font-size:0.9em;height:4em;padding:;}
+    .comparison-wrapper ul li{}
+}
 #service-benefits{}
 .service-benefits{margin:45px 0;padding:90px 0;}
 .service-benefits h3{margin-bottom:25px;}
@@ -2223,29 +2236,7 @@ textarea{width:100%;height:110px;max-height:110px;padding:15px;background:transp
 .hro-ScrollDown::after{content:'';display:block;height:55px;background-image:url('/wp-content/themes/woo-v4/images/scroll-icon.svg');background-position:bottom center;background-repeat:no-repeat;background-size:auto 40px;-webkit-animation-duration:2s;animation-duration:2s;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-name:bounce;animation-name:bounce;}
 .hro-Outer-videoLoaded .hro-ScrollDown{opacity:1;transition:opacity 0.5s;}
 }
-.comparison-wrapper{width:100%;margin:50px 0;display: block;overflow-x: auto;-ms-overflow-style: -ms-autohiding-scrollbar;}
-.comparison-wrapper .features-list{float:left;width:120px;background-color:#fafafa;opacity:.95;text-align:center;border-left:1px solid #c6c6c6;}
-.comparison-wrapper .features-list::after{content:'';position:relative;top:0;left:100%;width:4px;height:100%;background-color:transparent;background-image:-webkit-linear-gradient(left, rgba(0, 0, 0, 0.06), transparent);background-image:linear-gradient(to right,rgba(0, 0, 0, 0.06), transparent);opacity:0;}
-@media only screen and (min-width:1170px){.comparison-wrapper .features-list{width:210px;}
-}
-.comparison-wrapper .features-list::after{opacity:1;}
-.comparison-wrapper .product-wrapper{margin-left:120px;}
-@media only screen and (min-width:1170px){.comparison-wrapper .product-wrapper{width:auto;margin-left:210px;}
-}
-.comparison-wrapper .product-list{position:relative;float:left;width:33%;text-align:center;-webkit-transition:opacity 0.3s, visibility 0.3s, -webkit-transform 0.3s;-moz-transition:opacity 0.3s, visibility 0.3s, -moz-transform 0.3s;transition:opacity 0.3s, visibility 0.3s, transform 0.3s;}
-.comparison-wrapper .rental-list{position:relative;float:left;width:25%;text-align:center;-webkit-transition:opacity 0.3s, visibility 0.3s, -webkit-transform 0.3s;-moz-transition:opacity 0.3s, visibility 0.3s, -moz-transform 0.3s;transition:opacity 0.3s, visibility 0.3s, transform 0.3s;}
-.comparison-wrapper .product-list ul,
-.comparison-wrapper .features-list ul,
-.comparison-wrapper .rental-list ul{background:#fff;margin:0;padding:0;}
-.comparison-wrapper .product-list ul.top-info,
-.comparison-wrapper .features-list ul.top-info{font-size:22px;}
-.comparison-wrapper .product-list li,
-.comparison-wrapper .features-list li,
-.comparison-wrapper .rental-list li{list-style:none;margin:0;padding:1.5em 0.1em;font-size:16px;transition:500ms;border-bottom:1px solid #c6c6c6;border-right:1px solid #c6c6c6;}
-.comparison-wrapper .rental-list li h4, .comparison-wrapper .features-list li h4{color:#f4f4f4;font-size:1em;font-weight:700;}
-.comparison-wrapper .product-list ul:hover{background:#f6f6f6;}
-.comparison-wrapper .product-list li:hover,
-.comparison-wrapper .features-list li:hover{background:#fafafa;}
+
 .wpcf7-woo,
 .wpcf7-woo{width:100% !important;}
 .sjb-page .sjb-filters{padding:55px 0 25px;}
