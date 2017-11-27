@@ -3,13 +3,13 @@
  </style>
  
  <section class="section-builder">
-	<div id="service-packages">
+	<div id="service-packages" style="background:url('<?php the_sub_field('service_rental_background') ?>') 50% no-repeat fixed;background-size:cover;">
 
         <div class="container">
             <div class="row para-box">
                 <div class="title-section">
-                    <h2 class="section-title">Our Fleet Rental Packages</h2>
-                    <p class="lead">We've tiered our packages so you can choose the one that best matches your goals &amp; requirements.</p>
+                    <h2 class="section-title"><?php the_sub_field('service_rental_title'); ?></h2>
+                    <p class="lead"><?php the_sub_field('service_rental_subtitle'); ?></p>
                 </div>
                 <div class="comparison-wrapper" style="">
                     <div class="features-list" style="">
