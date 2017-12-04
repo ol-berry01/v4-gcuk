@@ -46,8 +46,8 @@ img{max-width:100%;height:auto;}
 i.fa.fa-check {color: #41d102;}
 i.fa.fa-angle-right {font-size: 1.4em;position: relative;top: 0.1em;left: 0.1em;}
 .col-md-12{padding:0;}
-@media (max-width:768px){.col-md-12{padding:0 20px;}
-}
+/* @media (max-width:768px){.col-md-12{padding:0 20px;}
+} */
 .petrol{background:url('https://goo.gl/gznjoV') no-repeat;}
 #header{margin-bottom:0;position:relative;z-index:1;-webkit-transition:padding 200ms;-o-transition:padding 200ms;transition:padding 200ms;padding:0;background-color:#000063;background-size:cover;background-position:center;}
 .navbar-fixed-top{background:#000063;border-bottom:0.17em solid #a28f56;box-shadow:0px 3px 5px rgba(51,51,51,0.1);}
@@ -339,7 +339,6 @@ footer .mesage{color:#fff;text-shadow:0 1px 0 #000000;}
 .ql_payments_options ul li{display:inline-block;color:#b3b3b3;font-size:28px;font-size:1.75rem;margin-left:0.71428571428571em;line-height:1em;}
 .ql_payments_options ul li:hover,
 .ql_payments_options ul li i{cursor:default;}
-/* .front-row{margin:5% 0 2.5%;} */
 .primary-row{margin:2.5% 1%;padding:0 1.5%;}
 .title-row{margin:0 1% 2.5%;padding:0 1.5%;}
 .details p{color:#a28f56;font-weight:400;}
@@ -504,6 +503,8 @@ div.product form.cart .button:hover{background:#000063;font-weight:700;}
 .product .service-icon-wrap img{max-width:50%;height:auto;}
 .product .product-text .description{min-height:70px;text-align:left;}
 }
+@media only screen and (max-width:768px){.section-builder{margin-bottom:0;}.service-nav-wrapper{min-height:200px;width:98%;}.service-content .col-sm-4{margin-bottom:3em;}.service-nav-content h3, .service-nav-content p.lead{text-align:center;}
+}
 @media only screen and (max-width:600px){.product .product-text .description{min-height:88px;text-align:left;}
 }
 @media only screen and (max-width:480px){.product{width:98%;margin-left:1%;margin-right:1%;}
@@ -560,35 +561,6 @@ div.product form.cart .button:hover{background:#000063;font-weight:700;}
 .db-bk-color-three{background-color:#c0c0c0;}
 .db-bk-color-four{background:#A57164;}
 .plan-select:hover{background:#eef0f1;}
-.fleetcars-section{padding:0;}
-.fleetcars-section .container .row .widget .widget_fleetcars-widget .col-sm-6{width:48px;margin:0% 1%;}
-.fleetcars{width:48%;margin-left:1%;margin-right:1%;margin-bottom:3%;padding:25px;background:#fff;box-shadow:3px 3px 5px rgba(55,55,55,0.2);}
-.fleetcars .fleetcars-icon-wrap{display:block;max-height:181px;margin-top:35px;margin-bottom:70px;margin-right:1%;text-align:center;vertical-align:top;}
-.fleetcars .service-icon-wrap img{max-width:100%;height:auto;}
-.fleetcar-text{text-align:center;margin:0% 1% 2.5%;padding:2.5% 1.5% 0;}
-.fleetcars-text-title{color:#a28f56;margin-bottom:2.5%;}
-.fleetcars .fleetcars-text{display:table-cell;vertical-align:top;text-align:center;}
-.fleetcars .fleetcars-text .description{min-height:50px;text-align:left;}
-.fleetcars .fleetcars-text h3{color:#a28f56;}
-.fleetcars .fleetcars-btn{text-transform:uppercase;}
-.fleetcars .fleetcars-btn i{margin-left:5px;font-size:14px;font-size:0.875rem;}
-.fleetcars-section .fleetcars{opacity:0;-webkit-transition:600ms all;-o-transition:600ms all;transition:600ms all;-webkit-transform:translate(0, 50px);-ms-transform:translate(0, 50px);-o-transform:translate(0, 50px);transform:translate(0, 50px);-webkit-transition-delay:800ms;transition-delay:800ms;}
-.pace-done .fleetcars-section .fleetcars,
-.no-js .fleetcars-section .fleetcars{opacity:1;-webkit-transform:translate(0, 0);-ms-transform:translate(0, 0);-o-transform:translate(0, 0);transform:translate(0, 0);}
-@media only screen and (max-width:1060px){.fleetcars .fleetcars-text .description{min-height:50px;text-align:left;}
-}
-@media only screen and (max-width:960px){.fleetcars{width:46%;margin-left:1%;margin-right:1%;}
-.fleetcars .service-icon-wrap img{max-width:50%;height:auto;}
-.fleetcars .fleetcars-text .description{min-height:110px;text-align:left;}
-}
-@media only screen and (max-width:768px){.fleetcars{width:98%;}
-.fleetcars .fleetcars-text .description{min-height:50px;text-align:left;}
-}
-@media only screen and (max-width:600px){.fleetcars{width:98%;}
-.fleetcars .fleetcars-text .description{min-height:88px;text-align:left;}
-}
-@media only screen and (max-width:480px){.fleetcars{width:98%;margin-left:1%;margin-right:1%;}
-}
 .welcome-text{max-width:70%;margin:0 15%;font-size:1.075em;}
 .welcome-logos{width:80%;margin:2.5% 10%;}
 .logo-dealer{width:33%;text-align:center;display:inline-block;}
