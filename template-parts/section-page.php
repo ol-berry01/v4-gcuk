@@ -112,9 +112,13 @@
                     <?php get_template_part( 'template-parts/section-service-maintenance', 'builder' ); ?>
 
             <!-- Styling Elements -->
-                <!-- Parallax Break Layout -->
+                <!-- Rental Table Layout -->
                 <?php elseif( get_row_layout() == 'service_rentalpackages' ): ?>
                     <?php get_template_part( 'template-parts/section-service-table', 'builder' ); ?>
+
+                <!-- Maintenance Tabs Layout -->
+                <?php elseif( get_row_layout() == 'service_maintenance' ): ?>
+                    <?php get_template_part( 'template-parts/section-service-maintenance', 'builder' ); ?>
 
             <!-- Styling Elements -->
                 <!-- Parallax Break Layout -->

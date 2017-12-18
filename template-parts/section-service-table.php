@@ -1,8 +1,4 @@
- <style>
-    
- </style>
- 
- <section class="section-builder">
+<section class="section-builder">
 	<div id="service-packages" style="background:url('<?php the_sub_field('service_rental_background') ?>') 50% no-repeat fixed;background-size:cover;">
 
         <div class="container">

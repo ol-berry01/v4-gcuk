@@ -1,11 +1,10 @@
 <div class="section-builder">
     <div class="container">
         <div class="row">
-            <div class="title-section">
+            <div class="title-section" style="margin-top:5em;">
                 <h2 class="section-title"><?php the_sub_field('service_nav_title'); ?></h2>
-                <p class="lead"><?php the_sub_field('service_nav_subtitle'); ?></p>
+                <p class="lead"><?php the_sub_field('service_nav_sub_title'); ?></p>
             </div>
-
             <?php if( have_rows('service_nav_item') ): ?>
                 <?php while( have_rows('service_nav_item') ): the_row(); ?>
                 <div class="service-nav-wrapper">
