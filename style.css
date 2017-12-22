@@ -494,6 +494,7 @@ div.product form.cart .button:hover{background:#000063;font-weight:700;}
 .no-js .product-section .product{opacity:1;-webkit-transform:translate(0, 0);-ms-transform:translate(0, 0);-o-transform:translate(0, 0);transform:translate(0, 0);}
 .service-nav-wrapper{background:#fff;width:31.5%;margin:0 0.9% 2.5%;float:left;border-radius:0.17em;transition:800ms;box-shadow:5px 5px 25px 0px rgba(55,55,55,0.3);}
 .service-nav-wrapper:hover{box-shadow:2px 4px 8px 0px rgba(55,55,55,0.5);}
+.service-nav-wrapper img{object-fit: cover;max-height: 260px;width: 100%;}
 .service-nav-wrapper .service-nav-content{min-height:10em;margin:1em;}
 .service-nav-wrapper .service-nav-content p.lead{font-size: 1.3em;}
 .service-nav-wrapper .service-nav-content p.content{min-height:5em;}

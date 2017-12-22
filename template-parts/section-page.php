@@ -103,18 +103,17 @@
                 <?php elseif( get_row_layout() == 'service_intro' ): ?>
                     <?php get_template_part( 'template-parts/section-service-intro', 'builder' ); ?>
 
-                <!-- Services Intro -->
+                <!-- Services Navigation -->
                 <?php elseif( get_row_layout() == 'service_nav' ): ?>
                     <?php get_template_part( 'template-parts/section-service-nav', 'builder' ); ?>
 
-                <!-- Services Intro -->
-                <?php elseif( get_row_layout() == 'service_maintenance' ): ?>
-                    <?php get_template_part( 'template-parts/section-service-maintenance', 'builder' ); ?>
-
-            <!-- Styling Elements -->
                 <!-- Rental Table Layout -->
                 <?php elseif( get_row_layout() == 'service_rentalpackages' ): ?>
                     <?php get_template_part( 'template-parts/section-service-table', 'builder' ); ?>
+
+                <!-- Rental Options Layout -->
+                <?php elseif( get_row_layout() == 'service_rentaloptions' ): ?>
+                    <?php get_template_part( 'template-parts/section-service-rental', 'builder' ); ?>    
 
                 <!-- Maintenance Tabs Layout -->
                 <?php elseif( get_row_layout() == 'service_maintenance' ): ?>
