@@ -532,8 +532,9 @@ div.product form.cart .button:hover{background:#000063;font-weight:700;}
 .service-intro{margin:55px 0;}
 #service-packages{background-size:cover;}
 .service-packages{margin:45px 0;padding:90px 0;}
-.comparison-wrapper{width:100%;margin:50px 0;display: block;overflow-x: auto;-ms-overflow-style: -ms-autohiding-scrollbar;}
+.comparison-wrapper{width:100%;margin:50px 5%;display: block;overflow-x: auto;-ms-overflow-style: -ms-autohiding-scrollbar;}
 .comparison-wrapper .features-list,.comparison-wrapper .rental-list{width:20%;float:left;background-color:#fafafa;opacity:.95;text-align:center;border-left:1px solid #c6c6c6;}
+.comparison-wrapper .features-list.features{width:25%;}
 .comparison-wrapper .features-list li.list-hidden{border-top: 1px solid #c6c6c6;background:#000063;}
 .comparison-wrapper .features-list::after{content:'';position:relative;top:0;left:100%;width:4px;height:100%;background-color:transparent;background-image:-webkit-linear-gradient(left, rgba(0, 0, 0, 0.06), transparent);background-image:linear-gradient(to right,rgba(0, 0, 0, 0.06), transparent);opacity:0;}
 .comparison-wrapper .product-list ul,.comparison-wrapper .features-list ul,.comparison-wrapper .rental-list ul{background:#fff;margin:0;padding:0;}

@@ -115,6 +115,10 @@
                 <?php elseif( get_row_layout() == 'service_rentaloptions' ): ?>
                     <?php get_template_part( 'template-parts/section-service-rental', 'builder' ); ?>    
 
+                <!-- Cover Options Layout -->
+                <?php elseif( get_row_layout() == 'service_cover' ): ?>
+                    <?php get_template_part( 'template-parts/section-service-cover', 'builder' ); ?>
+
                 <!-- Maintenance Tabs Layout -->
                 <?php elseif( get_row_layout() == 'service_maintenance' ): ?>
                     <?php get_template_part( 'template-parts/section-service-maintenance', 'builder' ); ?>
