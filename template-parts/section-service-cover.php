@@ -25,8 +25,7 @@
                         <li style="border-top:1px solid #c6c6c6;"><h3 class="gc-blue">Golf Car Protect</h3></li>
                         <li>Our Lease Customers</li>
                         <li><small>from</small> £9.95<small>p/m</small></li>
-                        <li>£0 - first claim, then
-                        £75 per claim</li>
+                        <li>£75 <small>per claim</small></li>
                         <li>Golf Car UK</li>
                         <li><i class="fa fa-check" aria-hidden="true" style="color:#41d102;"></i></li>
                         <li><i class="fa fa-check" aria-hidden="true" style="color:#41d102;"></i></li>

@@ -12,6 +12,7 @@
                         <ul>
                             <li class="list-hidden" style=""><h4 class="gc-blue" style="font-size:1.3em;">Rental</h4></li>
                             <li>Rental<small> ex VAT</small></li>
+                            <li>Payments per Annum</li>
                             <li>Vehicle</li>
                             <li>Battery Type</li>
                             <li>Condition</li>
@@ -43,7 +44,8 @@
                                 <div class="rental-list">
                                     <ul>
                                         <li class="header" style="border-top:1px solid #c6c6c6;background:#000063;"><h4 style="color:#fff;"><?php the_sub_field('service_rental_header'); ?></h4></li>
-                                        <li>&#163;<?php the_sub_field('service_rental_price'); ?> <small>12 Payments</small></li>
+                                        <li>&#163;<?php the_sub_field('service_rental_price'); ?></li>
+                                        <li>12</li>
                                         <li><?php the_sub_field('service_rental_vehicle'); ?></li>
                                         <li><?php the_sub_field('service_rental_battery'); ?></li>
                                         <li><?php the_sub_field('service_rental_condition'); ?></li>
