@@ -494,7 +494,7 @@ div.product form.cart .button:hover{background:#000063;font-weight:700;}
 .no-js .product-section .product{opacity:1;-webkit-transform:translate(0, 0);-ms-transform:translate(0, 0);-o-transform:translate(0, 0);transform:translate(0, 0);}
 .service-nav-wrapper{background:#fff;width:31.5%;margin:0 0.9% 2.5%;float:left;border-radius:0.17em;transition:800ms;box-shadow:5px 5px 25px 0px rgba(55,55,55,0.3);}
 .service-nav-wrapper:hover{box-shadow:2px 4px 8px 0px rgba(55,55,55,0.5);}
-.service-nav-wrapper img{object-fit: cover;max-height: 260px;width: 100%;}
+.service-nav-wrapper img{object-fit: cover;max-height: 225px;width: 100%;}
 .service-nav-wrapper .service-nav-content{min-height:10em;margin:1em;}
 .service-nav-wrapper .service-nav-content p.lead{font-size: 1.3em;}
 .service-nav-wrapper .service-nav-content p.content{min-height:5em;}
@@ -532,7 +532,7 @@ div.product form.cart .button:hover{background:#000063;font-weight:700;}
 .service-intro{margin:55px 0;}
 #service-packages{background-size:cover;}
 .service-packages{margin:45px 0;padding:90px 0;}
-.comparison-wrapper{width:100%;margin:50px 5%;display: block;overflow-x: auto;-ms-overflow-style: -ms-autohiding-scrollbar;}
+.comparison-wrapper{width:100%;margin:50px auto;display: block;overflow-x: auto;-ms-overflow-style: -ms-autohiding-scrollbar;}
 .comparison-wrapper .features-list,.comparison-wrapper .rental-list{width:20%;float:left;background-color:#fafafa;opacity:.95;text-align:center;border-left:1px solid #c6c6c6;}
 .comparison-wrapper .features-list.features{width:25%;}
 .comparison-wrapper .features-list li.list-hidden{border-top: 1px solid #c6c6c6;background:#000063;}
@@ -540,10 +540,10 @@ div.product form.cart .button:hover{background:#000063;font-weight:700;}
 .comparison-wrapper .product-list ul,.comparison-wrapper .features-list ul,.comparison-wrapper .rental-list ul{background:#fff;margin:0;padding:0;}
 .comparison-wrapper .product-list ul.top-info,.comparison-wrapper .features-list ul.top-info{font-size:22px;}
 .comparison-wrapper .product-list li,.comparison-wrapper .features-list li,.comparison-wrapper .rental-list li{list-style:none;margin:0;padding:1.5em 0.1em;font-size:16px;transition:500ms;border-bottom:1px solid #c6c6c6;border-right:1px solid #c6c6c6;}
-.comparison-wrapper .rental-list li h4, .comparison-wrapper .features-list li h4{color:#f4f4f4;font-size:1em;font-weight:700;}
+.comparison-wrapper .rental-list li h4, .comparison-wrapper .features-list li h3{color:#000063;font-size:1.3em;}
 @media only screen and (max-width:1171px){
     .comparison-wrapper .features-list small, .comparison-wrapper .rental-list small {display:block;} 
-    .comparison-wrapper .features-list li, .comparison-wrapper .rental-list li {font-size:0.9em;height:4em;padding:;}
+    .comparison-wrapper .features-list li, .comparison-wrapper .rental-list li {font-size:0.9em;height:4em;}
     .comparison-wrapper ul li{}
 }
 #service-benefits{}
