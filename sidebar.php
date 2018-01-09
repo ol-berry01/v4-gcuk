@@ -11,6 +11,6 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 	return;
 }
 ?>
-<aside id="sidebar" class="col-md-4 widget-area" role="complementary">
+<aside id="sidebar" class="col-md-4 widget-area" role="complementary" style="margin-top:75px;padding-top:50px;">
 	<?php dynamic_sidebar( 'sidebar-1' ); ?>
 </aside><!-- #sidebar -->

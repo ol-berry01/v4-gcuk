@@ -5,7 +5,7 @@ Theme URI: http://www.littlemonsterdigital.co.uk/themes/gcwoo/
 Author: Little Monster Digital
 Author URI: http://www.littlemonsterdigital.co.uk
 Description: Golf Car Woo is a WordPress theme developed by Little Monster Digital (Oliver Berry) for Golf Car UK Ltd. Based around the Bootstrap CSS framework this theme is designed to work in conjunction with WooCommerce whilst being responsive, lighter and more symantic and thus SEO friendly.
-Version: 4.2.1
+Version: 4.2.2
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
 Text Domain: gcwoo
@@ -39,10 +39,11 @@ img{max-width:100%;height:auto;}
 .gc-d-grey{color:#333333;}
 .gc-l-grey{color:#f9f9f9;}
 .gc-white{color:#fff;}
+.gc-shadow{border-radius:0.17em;box-shadow:5px 5px 25px 0px rgba(55,55,55,0.3);transition: 800ms;}
+.gc-shadow:hover{box-shadow: 2px 4px 8px 0px rgba(55,55,55,0.5);}
 #breadcrumbs{margin-top:25px;padding:2em 0 0 40px;}
 #breadcrumbs a{color:#999999;transition:500ms;}
 #breadcrumbs a:hover{color:#5a6475;text-decoration:none;transition:500ms;font-weight:500;}
-.breadcrumbs{}
 i.fa.fa-check {color: #41d102;}
 i.fa.fa-angle-right {font-size: 1.4em;position: relative;top: 0.06em;left: 0.1em;}
 .col-md-12{padding:0;}
@@ -191,6 +192,7 @@ i.fa.fa-angle-right {font-size: 1.4em;position: relative;top: 0.06em;left: 0.1em
 .sub_nav_header ul li{margin-bottom:15px;font-size:12px;font-size:0.75rem;color:#b3b3b3;}
 .sub_nav_header ul li i{font-size:14px;font-size:0.875rem;margin-right:8px;}
 .sub_nav_header p{color:#8c8c8c;}
+.post-content{padding-top:2.5em}
 #header_bottom{padding:1.875rem;text-align:center;font-size:11px;font-size:0.6875rem;}
 .ql_search_btn{float:right;position:relative;}
 .ql_search_btn #searchform{margin:0;}

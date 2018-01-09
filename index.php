@@ -14,9 +14,10 @@
 
 get_header(); ?>
 
-
+	
+	<div class="container" style="margin-top:75px;">
+	
 	<main id="main" class="site-main col-md-8" role="main">
-
 		<?php if ( have_posts() ) : ?>
 
 			<?php /* Start the Loop */ ?>
@@ -43,9 +44,7 @@ get_header(); ?>
 		<?php endif; ?>
 
 	</main><!-- #main -->
-
-
-	<?php get_sidebar(); ?>
-
+		<?php get_sidebar(); ?>
+	</div>
 
 <?php get_footer(); ?>
