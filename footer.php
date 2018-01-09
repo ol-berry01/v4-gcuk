@@ -500,7 +500,7 @@
                                 <!-- 1 -->
                                 <div class="col-sm-2 col-xs-6">
                                     <a href="/rental/">
-                                        <div><img src="<?php bloginfo('stylesheet_directory'); ?>/images/steering-icon.jpg" style="height:auto;max-width:75px;"></div>
+                                        <div><img src="<?php bloginfo('stylesheet_directory'); ?>/images/quick-icon-rental.jpg" style="height:auto;max-width:75px;"></div>
                                         <div><p class="lead" style="font-size:1.2em;">Rental</p></div>
                                     </a>
                                 </div>
@@ -508,7 +508,7 @@
                                 <!-- 2 -->
                                 <div class="col-sm-2 col-xs-6">
                                     <a href="/servicing/">
-                                        <div><img src="<?php bloginfo('stylesheet_directory'); ?>/images/tools-icon.jpg" style="height:auto;max-width:75px;"></div>
+                                        <div><img src="<?php bloginfo('stylesheet_directory'); ?>/images/quick-icon-service.jpg" style="height:auto;max-width:75px;"></div>
                                         <div><p class="lead" style="font-size:1.2em;">Servicing</p></div>
                                     </a>
                                 </div>
@@ -516,7 +516,7 @@
                                 <!-- 3 -->
                                 <div class="col-sm-2 col-xs-6">
                                     <a href="/finance/">
-                                        <div><img src="<?php bloginfo('stylesheet_directory'); ?>/images/finance-icon.jpg" style="height:auto;max-width:75px;"></div>
+                                        <div><img src="<?php bloginfo('stylesheet_directory'); ?>/images/quick-icon-finance.jpg" style="height:auto;max-width:75px;"></div>
                                         <div><p class="lead" style="font-size:1.2em;">Finance</p></div>
                                     </a>
                                 </div>
@@ -524,7 +524,7 @@
                                 <!-- 4 -->
                                 <div class="col-sm-2 col-xs-6">
                                     <a href="/insurance/">
-                                        <div><img src="<?php bloginfo('stylesheet_directory'); ?>/images/shield-icon.jpg" style="height:auto;max-width:75px;"></div>
+                                        <div><img src="<?php bloginfo('stylesheet_directory'); ?>/images/quick-icon-protect.jpg" style="height:auto;max-width:75px;"></div>
                                         <div><p class="lead" style="font-size:1.2em;">Protect</p></div>
                                     </a>
                                 </div>
