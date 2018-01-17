@@ -16,8 +16,8 @@ html{font-size:1.075em;}
 html, html a{-webkit-font-smoothing:antialiased !important;text-shadow:1px 1px 1px rgba(0,0,0,0.004);}
 body{background:#f4f4f4;color:#5a6475;margin:0;font-family:'Lato', Arial, Sans-Serif;}
 h1, h2, h3, h4, h5, h6{font-family:'Open Sans' , Arial, Sans-Serif;margin:0;color:#a28f56;font-weight:400;}
-h1{font-size:2.8em;}
-h2{font-size:2.5em;}
+h1{font-size:3.6em;}
+h2{font-size:3em;}
 h3{font-size:2em;}
 h4{font-size:1.4em;}
 p{font-size:1.075em;}
@@ -28,7 +28,7 @@ a:focus{color:#a28f56;text-decoration:none;}
 button,
 button:hover,
 button:focus{}
-.lead{color:#aaaaaa;font-size:1.3em;font-weight:400;}
+.lead{color:#aaaaaa;font-size:1.7em;font-weight:400;}
 img{max-width:100%;height:auto;}
 .btn{font-family:'Open Sans' , Arial, Sans-Serif;}
 .home .entry-header{display:none;}
@@ -629,12 +629,12 @@ div.product form.cart .button:hover{background:#000063;font-weight:700;}
 .testimonials-wrap .flickity-page-dots .dot:hover{background-color:#fff;}
 .testimonials-wrap .flickity-page-dots .dot.is-selected{background-color:rgba(255,255,255,0.75);border:3px solid #a28f56;}
 .image-section-left{position:relative;background-color:#000;}
-.image-section-left .image-wrap{position:absolute;top:0;left:0;bottom:0;width:60%;display:block;background-position:center;background-size:cover;opacity:0.7;}
+.image-section-left .image-wrap{position:absolute;top:0;left:0;bottom:0;width:60%;display:block;background-position:center;background-size:cover;}
 .image-section-left .image-text{margin-left:60%;width:40%;padding:5em;background-color:#5A6475;color:#eeeeee;}
 .image-section-left .image-text .image-text-title{color:#A28F56;margin-bottom:30px;}
 .image-section-left .image-text p{color:#dddddd;margin-bottom:30px;font-size:18px;font-size:1.125rem;line-height:1.66666666666667em;}
 .image-section-right{position:relative;background-color:#000;}
-.image-section-right .image-wrap{width: 60%;display:block;position:absolute;top:0;right:0;bottom:0;}
+.image-section-right .image-wrap{width: 60%;display:block;position:absolute;top:0;right:0;bottom:0;background-position:center;background-size:cover;}
 .image-section-right .image-text{width:40%;padding:5em;background-color:#5A6475;color:#eeeeee;}
 .image-section-right .image-text .image-text-title{color:#A28F56;margin-bottom:30px;}
 .image-section-right .image-text p{color:#dddddd;margin-bottom:30px;font-size:18px;font-size:1.125rem;line-height:1.66666666666667em;}
