@@ -4,7 +4,7 @@
         <div class="row wow fadeInUp">
             <!-- Title & Introduction -->
             <div class="row fleetcar-text wow fadeInUp" style="margin-bottom:2.5%">
-                <h1 class="section-title"><?php the_sub_field('section_i_details_title'); ?></h1>
+                <h2 class="section-title"><?php the_sub_field('section_i_details_title'); ?></h2>
                 <p><?php the_sub_field('section_i_details_content'); ?></p>
             </div>
             <!-- End: Title & Introduction -->
@@ -21,7 +21,7 @@
                             <div class="nav-brand-image">
                                 <img class="nav-brand" src="<?php the_sub_field('nav_i_details_brand'); ?>" style="margin:5px 0">
                             </div>
-                            <h2><?php the_sub_field('nav_i_details_title'); ?></h2>
+                            <h3><?php the_sub_field('nav_i_details_title'); ?></h3>
                             <p class="nav-subtitle"><?php the_sub_field('nav_i_details_subtitle'); ?></p>
                             <button class="btn-details btn-block">Details &gt;</button>
                         </a>

@@ -1,11 +1,11 @@
 @charset "UTF-8";
 /*
-Theme Name: Golf Car - V4
+Theme Name: Golf Car - V4.2.2 Dev 
 Theme URI: http://www.littlemonsterdigital.co.uk/themes/gcwoo/
 Author: Little Monster Digital
 Author URI: http://www.littlemonsterdigital.co.uk
 Description: Golf Car Woo is a WordPress theme developed by Little Monster Digital (Oliver Berry) for Golf Car UK Ltd. Based around the Bootstrap CSS framework this theme is designed to work in conjunction with WooCommerce whilst being responsive, lighter and more symantic and thus SEO friendly.
-Version: 4.2.2
+Version: 4.2.2.1
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
 Text Domain: gcwoo
@@ -41,7 +41,7 @@ img{max-width:100%;height:auto;}
 .gc-white{color:#fff;}
 .gc-shadow{border-radius:0.17em;box-shadow:5px 5px 25px 0px rgba(55,55,55,0.3);transition: 800ms;}
 .gc-shadow:hover{box-shadow: 2px 4px 8px 0px rgba(55,55,55,0.5);}
-#breadcrumbs{margin-top:25px;padding:2em 0 0 40px;}
+#breadcrumbs{margin-top: 2em;padding: 0 0 0 0.25em;}
 #breadcrumbs a{color:#999999;transition:500ms;}
 #breadcrumbs a:hover{color:#5a6475;text-decoration:none;transition:500ms;font-weight:500;}
 i.fa.fa-check {color: #41d102;}
@@ -54,6 +54,7 @@ i.fa.fa-angle-right {font-size: 1.4em;position: relative;top: 0.06em;left: 0.1em
 .navbar-fixed-top{background:#000063;border-bottom:0.17em solid #a28f56;box-shadow:0px 3px 5px rgba(51,51,51,0.1);}
 .home.page #header{margin-bottom:0;}
 .search_open #header{padding-top:80px;}
+.container{padding:0 2em;}
 #header .container{position:relative;}
 .navbar{margin-bottom:0;}
 .home-logo{max-height:45px;width:auto;display:block;padding:5px 0;text-align:center;overflow:hidden;}
@@ -62,6 +63,7 @@ i.fa.fa-angle-right {font-size: 1.4em;position: relative;top: 0.06em;left: 0.1em
 .ql_logo_nav{opacity:0;-webkit-transform:translate(0, -200px);-ms-transform:translate(0, -200px);-o-transform:translate(0, -200px);transform:translate(0, -200px);-webkit-transition:opacity 600ms, transform 600ms;-o-transition:opacity 600ms, transform 600ms;transition:opacity 600ms, transform 600ms;position:relative;z-index:30;}
 .pace-done .ql_logo_nav,
 .no-js .ql_logo_nav{opacity:1;-webkit-transform:translate(0, 0);-ms-transform:translate(0, 0);-o-transform:translate(0, 0);transform:translate(0, 0);}
+
 .logo_container{margin:0;display:block;}
 .logo_container h1{margin-bottom:0;font-size:30px;font-size:1.875rem;font-weight:bold;}
 .logo_container .ql_logo{font-size:30px;font-size:1.875rem;color:#383838;font-weight:bold;-webkit-transition:all 400ms ease-in-out;-o-transition:all 400ms ease-in-out;transition:all 400ms ease-in-out;text-transform:uppercase;}
@@ -373,8 +375,8 @@ footer .mesage{color:#fff;text-shadow:0 1px 0 #000000;}
 @media only screen and (max-width:965px){.nav-iii-section{width:90%;margin:0 5% 5%;}
 .nav-iii-section .nav-text-wrapper{min-height:78px;width:90%;margin-left:5%;}
 }
-.nav-iv-section{background:#fff;width:23%;margin:0 1% 2.5%;float:left;border-radius:3px;box-shadow:3px 3px 5px rgba(55,55,55,0.3);transition-duration:800ms;}
-.nav-iv-section:hover{box-shadow:3px 3px 5px rgba(55,55,55,0.5);-webkit-transform:translateY(-3px);transform:translateY(-3px);}
+.nav-iv-section{background:#fff;width:23%;margin:0 1% 2.5%;float:left;border-radius:3px;transition-duration:800ms;}
+.nav-iv-section:hover{}
 .nav-ive-section h2{font-size:2em;}
 @media only screen and (max-width:1511px){.nav-iv-section h2{font-size:1.6em;}
 }
@@ -393,7 +395,7 @@ footer .mesage{color:#fff;text-shadow:0 1px 0 #000000;}
 .nav-iv-section .nav-text-wrapper{min-height:54px;width:90%;margin-left:5%;}
 .nav-iv-section .nav-img-wrapper{height:100%;width:auto;}
 }
-.col-wrapper{margin-bottom:2.5%;}
+.col-wrapper{margin:2em 0;}
 .nav-wrapper{position:relative;padding:25px;transition:800ms;}
 @media only screen and (max-width:1280px){.nav-wrapper{padding:15px;}
 }
