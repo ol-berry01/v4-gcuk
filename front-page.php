@@ -50,8 +50,6 @@ get_header(); ?>
 	
 	        	<!-- Page Sections -->
 					
-					<?php get_template_part( 'template-parts/section-builder-nav3', 'front-page' ); ?>
-					
 					
 		    		<?php get_template_part( 'template-parts/section-page', 'front-page' ); ?>
 		            
