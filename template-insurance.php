@@ -182,7 +182,7 @@ get_header(); ?>
 <div id="insuranceMessage" class="modal fade">
     <div class="modal-dialog">
         <div class="modal-content">
-            <div class="modal-header" style="background:#000048;">
+            <div class="modal-header" style="background:#000063;">
                 <button type="button" class="close" data-dismiss="modal"><span class="" aria-hidden="true" style="color:#fff;">&times;</span><span class="sr-only">Close</span></button>
                 <div style="text-align:center;"><h4 class="modal-title gc-white" id="myModalLabel" style="color:#fff;">Book an Golf Car Insurance Consultation with Golf Car UK</p></div>
             </div>

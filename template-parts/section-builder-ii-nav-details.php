@@ -44,7 +44,7 @@
                                                 <li style="background:<?php the_sub_field('nav_ii_colour'); ?>;" title="<?php the_sub_field('nav_ii_colour_label'); ?>"></li>
                                             <?php endwhile; ?>
                                         <?php endif; ?>
-                                        <li style="width:auto;"><a style="color:#000048;" href="<?php the_sub_field('col_ii_details_link'); ?>">More Colours</a></li>
+                                        <li style="width:auto;"><a style="color:#000063;" href="<?php the_sub_field('col_ii_details_link'); ?>">More Colours</a></li>
                                     </ul>
                                 </div>
                             </div>
